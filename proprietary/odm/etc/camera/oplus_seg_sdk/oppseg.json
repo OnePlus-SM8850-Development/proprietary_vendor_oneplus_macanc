@@ -1,0 +1,28 @@
+{
+    "module": "oppseg",
+    "comment":
+    [
+        "BrandID 1 for oupo, 2 for yijia, 3 for zhenwo",
+        "OdnnRuntime: CPU_FLOAT32, GPU_FLOAT32_16_HYBRID, DSP_FIXED8_TF, GPU_FLOAT16, AIP_FIXED8_TF, AIP_FIXED_TF, CPU, GPU, DSP",
+        "OdnnBoostValue: [0, 110] Example:  low power  30 or 50 ; normal performance 70; high performance 100;super performance 110;",
+        "OdnnLogLevel: ERROR, WARING, INFO, DEBUG, PRINTF",
+        "OdnnPriority: NORMAL, HIGH, LOW",
+        "OdnnProfilingLevel: OFF, BASIC, DETAILED"
+    ],
+	"product": "8850",
+    "VENDOR": "QCOM",
+    "QNN_VERSION": "2.33.0.250327",
+    "MODEL_VERSION": "v220_768x1024_0304_sbec",
+    "param":
+    [
+		{
+            "product_name": "8850",
+            "BrandID": 1,
+            "OdnnRuntime": "DSP",
+            "OdnnBoostValue": 80,
+            "OdnnLogLevel": "ERROR",
+            "OdnnPriority": "NORMAL",
+            "OdnnProfilingLevel": "OFF"
+        }
+    ]
+}

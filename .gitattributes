@@ -1,0 +1,10 @@
+proprietary/odm/etc/camera/anc/fusion_model_post filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/aiframe/libQnnHtpPrepare.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libQnnHtpPrepare.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libarcsoft_dualcam_bokeh_image.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libarcsoft_tfm.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libarcsoft_turbo_hdr_raw.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libarcsoft_turbo_hdr_raw_front.so filter=lfs diff=lfs merge=lfs -text
+radio/* filter=lfs diff=lfs merge=lfs -text

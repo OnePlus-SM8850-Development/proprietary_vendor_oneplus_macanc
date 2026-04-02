@@ -1,0 +1,32 @@
+<ocai_config_info>
+    <version>1.0</version>
+    <!--Configure the recording algorithm wrapper lib name. If not configured, the recording algorithm will not be used.-->
+    <recordLibname>libocai_to_oprec_wrapper.so</recordLibname>
+    <!--Indicates whether the recording algorithm supports recording effects in all camera scenes-->
+    <param key="surround_record_support" value="true"/>
+    <!--The number of mics used by the system camera's front camera recording scene-->
+    <param key="camera_face_record_mic_count" value="2"/>
+    <!--The number of mics used by the system camera's rear camera recording scene-->
+    <param key="camera_back_record_mic_count" value="2"/>
+    <!--The number of mics used by the system recorder recording scene-->
+    <param key="undirect_record_mic_count" value="2"/>
+    <!--Limit the input audio bitwidth-->
+    <param key="record_input_bitwidth_min" value="PCM_FORMAT_S24_LE"/>
+    <!--Used in folding screen projects, configure whether to support system recording, and send the screen folding angle in the recording scene-->
+    <param key="record_fold_angle_support" value="false"/>
+    <!--Configure whether to enable the directional recording function-->
+    <param key="unidirectional_recording_support" value="false"/>
+    <!--Configure whether to support OPLUS_RECORD_TYPE_TRACK effect-->
+    <param key="record_track_support" value="false"/>
+    <!--Configure whether to support OPLUS_RECORD_TYPE_ZOOM effect-->
+    <param key="record_zoom_support" value="false"/>
+    <!--Configure whether to support OPLUS_RECORD_TYPE_CONCERT effect-->
+    <param key="camcorder_concert_support" value="true"/>
+    <!--Configure whether to support breeno unidirectional record-->
+    <param key="breeno_unidirectional_recording_support" value="false"/>
+    <param key="cameraRecord_block_mic_prompt_support" value="false"/>
+    <profileID name="RECORD_PROFILE_MIC_UNPROCESS" id="99"/>
+    <profileID name="RECORD_PROFILE_BT_UNPROCESS" id="99"/>
+    <profileID name="RECORD_PROFILE_USB_UNPROCESS" id="99"/>
+    <profileID name="RECORD_PROFILE_HS_UNPROCESS" id="99"/>
+</ocai_config_info>

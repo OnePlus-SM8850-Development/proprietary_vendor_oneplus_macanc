@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FIRMWARE>
+		<File name="KLUEG4RHHF-F0G1" manufacturer="SAMSUNG" target_version="1500"></File>
+		<File name="KLUFG4NHHB-F0G1" manufacturer="SAMSUNG" target_version="1500"></File>
+		<File name="KLUGG8NHKB-F0H1" manufacturer="SAMSUNG" target_version="0700"></File>
+		<File name="HN8T171EJKX151" manufacturer="SKhynix" target_version="A200"></File>
+		<File name="HN8T271EJKX152" manufacturer="SKhynix" target_version="A200"></File>
+		<File name="XBUSC1B2AA9TF3" manufacturer="XBSTOR" target_version="0315"></File>
+</FIRMWARE>

@@ -1,0 +1,57 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
+    "soc_id": ["660", "661", "685"]
+  },
+  "oplus_chop_commom":{
+    "owner": "oplus_chop",
+    ".config":{
+      "owner": "oplus_chop",
+      "is_available":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "is_sup_chop":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "use_proximity":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "acc_static_length":{ "type": "int", "ver": "0",
+        "data": "100"
+      },
+      "acc_move_threshold":{ "type": "flt", "ver": "0",
+        "data": "0.6"
+      },
+      "acc_move_length":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "ax_max":{ "type": "flt", "ver": "0",
+        "data": "22.0"
+      },
+      "ax_min":{ "type": "flt", "ver": "0",
+        "data": "-22.0"
+      },
+      "ax_delta":{ "type": "flt", "ver": "0",
+        "data": "80"
+      },
+      "ax_peek_cnt":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "ax_extra_cnt":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "chop_cnt":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "chop_between_ms":{ "type": "int", "ver": "0",
+        "data": "250"
+      },
+      "chop_timeout_ms":{ "type": "int", "ver": "0",
+        "data": "900"
+      },
+      "chop_buffer_size":{ "type": "int", "ver": "0",
+        "data": "10"
+      }
+    }
+  }
+}

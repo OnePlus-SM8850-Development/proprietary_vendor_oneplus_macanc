@@ -1,0 +1,2 @@
+//pcm dump enable :1, disable:0
+pcm_dump_enable=0

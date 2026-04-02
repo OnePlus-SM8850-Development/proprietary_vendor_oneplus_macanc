@@ -1,0 +1,10 @@
+#Add for smartpa calibrate
+on boot
+    chown system audio /sys/bus/i2c/devices/20-0034/reg
+    chown system audio /sys/bus/i2c/devices/20-0034/rw
+    chmod 0220 /sys/bus/i2c/devices/20-0034/reg
+    chmod 0660 /sys/bus/i2c/devices/20-0034/rw
+    chown system audio /sys/bus/i2c/devices/20-0035/reg
+    chown system audio /sys/bus/i2c/devices/20-0035/rw
+    chmod 0220 /sys/bus/i2c/devices/20-0035/reg
+    chmod 0660 /sys/bus/i2c/devices/20-0035/rw

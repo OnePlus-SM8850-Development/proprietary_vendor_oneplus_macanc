@@ -1,0 +1,132 @@
+{
+    "config":{
+      "hw_platform": ["MTP", "RCM", "Surf", "QRD"],
+      "soc_id": ["660", "661", "685"]
+  },
+  "ois_system_bus":{
+    "owner": "sns_ois_system",
+    ".config":{
+      "owner": "sns_ois_system",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "8"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "1000"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "L7M_E0"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "L5M_E0"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "ois_name":{ "type": "str", "ver": "0",
+        "data": "dw9828c"
+      },
+      "need_reverse_xy":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "vsync_gpio_num":{ "type": "int", "ver": "0",
+        "data": "83"
+      },
+      "oisen_gpio_num":{ "type": "int", "ver": "0",
+        "data": "119"
+      },
+      "ois_probe_skip":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    }
+  },
+  "ois_system_gyro_bus":{
+    "owner": "sns_ois_system_gyro",
+    ".config":{
+      "owner": "sns_ois_system_gyro",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "5"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "L2B_E0"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "L1B_E0"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "gyro_name":{ "type": "str", "ver": "0",
+        "data": "lsm6dsvq"
+      }
+    }
+  }
+}
