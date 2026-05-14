@@ -15692,6 +15692,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libmvgcommon",
+                "libc++_shared",
                 "liblog",
                 "libdl",
                 "libc",
@@ -15917,6 +15918,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libsharebuffer",
+                "libc++_shared",
                 "liblog",
                 "libGLESv3",
                 "libEGL",
@@ -15946,6 +15948,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libmvgcommon",
                 "libsharebuffer",
+                "libc++_shared",
                 "liblog",
                 "libdl",
                 "libGLESv3",
@@ -16392,6 +16395,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libmvgcommon",
                 "libmvgfusion",
+                "libc++_shared",
                 "liblog",
                 "libdl",
                 "libc",

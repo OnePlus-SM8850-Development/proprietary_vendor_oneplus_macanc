@@ -6,11 +6,11 @@
   },
 
   "mode_type_list":{
-    "rear_wide":["video_mode", "master_video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "movie_mode", "slowvideo_mode", "long_exposure_mode", "under_water_mode"],
-    "rear_main":["video_mode", "master_video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "id_photo_mode", "slowvideo_mode", "movie_mode", "xpan_mode", "panorama_mode", "long_exposure_mode", "high_pixel_mode", "under_water_mode"],
-    "rear_tele":["video_mode", "master_video_mode", "professional_mode", "movie_mode", "slowvideo_mode", "photo_mode"],
-    "front_main":["video_mode", "master_video_mode", "photo_mode", "portrait_mode", "fastvideo_mode", "id_photo_mode", "night_mode", "panorama_mode"],
-    "rear_sat":["video_mode", "master_video_mode", "photo_mode", "super_text_mode", "portrait_mode", "night_mode", "fastvideo_mode"],
+    "rear_wide":["video_mode", "master_video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "slowvideo_mode", "long_exposure_mode", "under_water_mode"],
+    "rear_main":["video_mode", "master_video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "id_photo_mode", "slowvideo_mode", "xpan_mode", "panorama_mode", "long_exposure_mode", "high_pixel_mode", "under_water_mode"],
+    "rear_tele":["video_mode", "professional_mode", "slowvideo_mode", "photo_mode"],
+    "front_main":["video_mode", "photo_mode", "portrait_mode", "fastvideo_mode", "id_photo_mode", "night_mode", "panorama_mode"],
+    "rear_sat":["video_mode", "photo_mode", "super_text_mode", "portrait_mode", "night_mode", "fastvideo_mode"],
     "rear_main_front_main":["multi_camera_mode"]
   },
 
@@ -54,22 +54,6 @@
       }
     },
 
-    "master_video_mode":{
-      "resolution":{
-        "8k":"80A9"
-      },
-
-      "fps":{
-        "video_24fps":"830b",
-        "video_60fps":"8021",
-        "video_120fps":"1"
-      },
-
-      "fovc":{
-        "on":"0300"
-      }
-    },
-
     "portrait_mode":{
       "bokeh_type":{
         "single_bokeh":"8026"
@@ -95,7 +79,7 @@
       }
     },
 
-    "movie_mode":{
+    "master_video_mode":{
       "stabilization":{
         "video_stabilization":"80a4"
       }
@@ -118,7 +102,6 @@
     "super_text_mode":"8001",
     "id_photo_mode":"80B2",
     "video_mode":"800b",
-    "master_video_mode":"800b",
     "night_mode":"8019",
     "panorama_mode":"8007",
     "professional_mode":"8009",
@@ -130,7 +113,7 @@
     "microscope_capture_mode":"8001",
     "microscope_video_mode":"800b",
     "macro_mode":"80A6",
-    "movie_mode":"80A3",
+    "master_video_mode":"80A3",
     "xpan_mode":"80AC",
     "long_exposure_mode":"80AA",
     "high_pixel_mode":"8001",
@@ -220,10 +203,6 @@
 
       "rear_wide":{
         "super_stabilization":["1920X1080", "1920X1080"]
-      },
-
-      "rear_tele":{
-        "super_stabilization":["1920X1080", "1920X1080"]
       }
     }
   },
@@ -280,20 +259,6 @@
         "video_stabilization":["1920X1080", "1920X1080"],
         "super_stabilization":["1920X1080", "1920X1080"],
         "default":["1920X1080", "1920X1080"]
-      },
-
-      "rear_tele":{
-        "video_stabilization":["1920X1080", "1920X1080"],
-        "super_stabilization":["1920X1080", "1920X1080"],
-        "default":["1920X1080", "1920X1080"]
-      },
-
-      "front_main":{
-        "default":["1920X1080", "1920X1080"]
-      },
-
-      "rear_sat":{
-        "default":["3840X2160", "3840X2160"]
       }
     },
 
