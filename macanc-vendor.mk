@@ -1503,6 +1503,34 @@ PRODUCT_PACKAGES += \
     libtfestriping \
     libubifocus \
     libvideoml \
+    libDLDPP_skel \
+    libHexlpQnnHtp \
+    libHexlpQnnSystem \
+    libVppFrcQnnHtp \
+    libapn_dsp_skel \
+    libbitml_nsp_81na_skel \
+    libbitml_nsp_skel \
+    libdspCV_skel \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhdr_skel \
+    libmobilenet_dsp_frc \
+    libmobilenet_dsp_frc_networks \
+    libnsp_ipc_cdsp_skel \
+    libnspextensioncopyprovider \
+    libnspextensionfrcprovider \
+    libnspextensiongenericqnnprovider \
+    libnspextensionsuperresolutionprovider \
+    libqsegnetengine_dsp_skel \
+    libscveT2T_skel \
+    libsvDescMatchImpl_dsp_skel \
+    libsvDescMatch_dsp \
+    libsvdsp \
+    libsvswdsp \
+    libsvswdsp_skel \
+    libvpp_frc \
+    libvpp_gfrc_networks \
+    libvpp_svc_skel \
     vendor.oplus.hardware.camera.aon-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice@1.0 \
