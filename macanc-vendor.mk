@@ -1531,10 +1531,7 @@ PRODUCT_PACKAGES += \
     libvpp_frc \
     libvpp_gfrc_networks \
     libvpp_svc_skel \
-    vendor.oplus.hardware.camera.aon-V1-ndk_vendor \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    vendor.oplus.hardware.sendextcamcmd-V2-ndk_vendor \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     libQnnHtpV81Skel.signed.aiframe \
@@ -1727,13 +1724,9 @@ PRODUCT_PACKAGES += \
     libwrapper_te \
     libyuvwrapper \
     libzlib \
-    vendor.oplus.hardware.camera.aon-V1-ndk \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
-    vendor.oplus.hardware.camera_rfi-V3-ndk \
-    vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
-    vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     odm_lib_rfsa_adsp_libCalculator_skel_so \
     odm_lib_rfsa_adsp_libQnnHtpV81_so \
     odm_lib_rfsa_adsp_libQnnHtpV81Skel_so \
