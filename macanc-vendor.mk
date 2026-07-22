@@ -65,6 +65,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Dark_Eye_Protect_LsRGB.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Dark_Eye_Protect_LsRGB.txt \
     vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Dark_Eye_Protect_Nature.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Dark_Eye_Protect_Nature.txt \
     vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Dark_Eye_Protect_Vivid.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Dark_Eye_Protect_Vivid.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_COMP3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_COMP3.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_ColorInvert_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_ColorInvert_Fliter.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_FPS.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_FPS.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_FPS_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_FPS_Fliter.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_HighDynamicRange_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_HighDynamicRange_Fliter.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_MOBA.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_MOBA.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_MOBA_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_MOBA_Fliter.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_NightVision_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_NightVision_Fliter.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_OTOME.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_OTOME.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_OTOME_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_OTOME_Fliter.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_OldMovie_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_OldMovie_Fliter.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_RPG.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_RPG.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Game_Vivid_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_Vivid_Fliter.txt \
     vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Lut3D_311:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Lut3D_311 \
     vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/Lut3D_312:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Lut3D_312 \
     vendor/oneplus/macanc/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
